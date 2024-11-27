@@ -2,7 +2,7 @@
 
 
 ## How to use
-
+```
 python
 Copy code
 import psutil
@@ -74,7 +74,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+```
 
 
 ## How it works:
@@ -90,6 +90,10 @@ Logs are saved in system_health.log for future reference.
 ## How to run:
 1. Save the script as health_monitor.py.
 2. Install the required Python module:
+```
 pip install psutil
+```
 3. Run the script:
+```
 python health_monitor.py
+```
