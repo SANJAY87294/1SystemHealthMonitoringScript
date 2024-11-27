@@ -1,4 +1,7 @@
-Python script to monitor the health of a Linux system. It checks CPU usage, memory usage, disk space, and the number of running processes against predefined thresholds. If any metric exceeds the thresholds, an alert is logged to both the console and a log file.
+## Python script to monitor the health of a Linux system. It checks CPU usage, memory usage, disk space, and the number of running processes against predefined thresholds. If any metric exceeds the thresholds, an alert is logged to both the console and a log file.
+
+
+## How to use
 
 python
 Copy code
@@ -71,21 +74,22 @@ def main():
 
 if __name__ == "__main__":
     main()
-How it works:
+
+
+
+## How it works:
 CPU Usage: Measures the average CPU usage over a 1-second interval.
 Memory Usage: Checks the percentage of used physical memory.
 Disk Space: Verifies the percentage of used disk space on the root partition.
 Running Processes: Counts the total number of active processes.
-Output:
+
+## Output:
 Alerts are printed to the console.
 Logs are saved in system_health.log for future reference.
-How to run:
-Save the script as health_monitor.py.
-Install the required Python module:
-bash
-Copy code
+
+## How to run:
+1. Save the script as health_monitor.py.
+2. Install the required Python module:
 pip install psutil
-Run the script:
-bash
-Copy code
+3. Run the script:
 python health_monitor.py
