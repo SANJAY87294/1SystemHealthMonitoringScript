@@ -1,0 +1,12 @@
+2024-11-25 19:45:55,987 - INFO - System Health Monitoring started
+2024-11-25 19:45:56,990 - INFO - CPU usage is normal: 17.1%
+2024-11-25 19:45:56,993 - WARNING - High Memory usage: 83.9%
+2024-11-25 19:45:56,994 - INFO - Disk space is normal: 61.1% used
+2024-11-25 19:45:56,999 - WARNING - High number of running processes: 250
+2024-11-25 19:45:56,999 - INFO - System Health Monitoring completed
+2024-11-25 19:46:03,165 - INFO - System Health Monitoring started
+2024-11-25 19:46:04,166 - INFO - CPU usage is normal: 17.1%
+2024-11-25 19:46:04,170 - WARNING - High Memory usage: 83.8%
+2024-11-25 19:46:04,171 - INFO - Disk space is normal: 61.1% used
+2024-11-25 19:46:04,174 - WARNING - High number of running processes: 250
+2024-11-25 19:46:04,174 - INFO - System Health Monitoring completed
